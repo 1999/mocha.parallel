@@ -218,3 +218,5 @@ https://github.com/caolan/async#parallel, https://github.com/creationix/step
 and https://github.com/tj/co#yieldables This library does not offer true
 parallelism using multiple threads/workers/fibers, or by spawning multiple
 processes.
+
+If you think that you can benefit from using true parallelism by running each test in a separate process, consider using [mocha-parallel-tests](https://github.com/yandex/mocha-parallel-tests/wiki/Comparison-with-mocha.parallel).
